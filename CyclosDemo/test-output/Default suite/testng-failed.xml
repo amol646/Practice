@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestCases.TC001_AccountinfoPage">
+        <methods>
+          <include name="endrun"/>
+          <include name="teardown"/>
+          <include name="TC001_verifyaccountinfopage"/>
+          <include name="testdatafile"/>
+        </methods>
+      </class> <!-- TestCases.TC001_AccountinfoPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

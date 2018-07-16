@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cyclos Suite]">
+  <listeners>
+    <listener class-name="Utilities.MyExtentReporter"/>
+  </listeners>
+  <test name="Class(failed)">
+    <classes>
+      <class name="TestCases.TC003_PlaceAdPage">
+        <methods>
+          <include name="TC003_PlaceAdvertisement"/>
+          <include name="endrun"/>
+          <include name="teardown"/>
+          <include name="testdatafile"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- TestCases.TC003_PlaceAdPage -->
+      <class name="TestCases.TC002_PaymentsPage">
+        <methods>
+          <include name="TC002_VerifyPaymentsPage"/>
+        </methods>
+      </class> <!-- TestCases.TC002_PaymentsPage -->
+    </classes>
+  </test> <!-- Class(failed) -->
+</suite> <!-- Failed suite [Cyclos Suite] -->

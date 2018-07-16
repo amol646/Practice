@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Utilities.MyExtentReporter"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestCases.TC003_PlaceAdPage">
+        <methods>
+          <include name="PlaceAdvertisement"/>
+          <include name="endrun"/>
+          <include name="teardown"/>
+          <include name="testdatafile"/>
+          <include name="launchapp"/>
+        </methods>
+      </class> <!-- TestCases.TC003_PlaceAdPage -->
+      <class name="TestCases.TC002_PaymentsPage">
+        <methods>
+          <include name="VerifyPaymentsPage"/>
+        </methods>
+      </class> <!-- TestCases.TC002_PaymentsPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

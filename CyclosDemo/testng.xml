@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" parallel="methods" thread-count="3" >
+	<!-- <listeners>
+        <listener class-name="Utilities.MyExtentReporter" />
+    </listeners> -->
+
+  <test name="My Test Execution1">
+    <classes>
+      <class name="TestCases.TC001_AccountinfoPage"/>
+      <class name="TestCases.TC002_PaymentsPage"/>
+      <class name="TestCases.TC003_PlaceAdPage"/>
+      
+    
+      
+     </classes>
+   </test> <!-- Test -->
+   
+<!--     <test name="My Test Execution2">
+    <classes>
+      <class name="TestCases.TC002_PaymentsPage"/>
+     </classes>
+    </test> Test
+    
+     <test name="My Test Execution3">
+     <classes>
+      <class name="TestCases.TC003_PlaceAdPage"/>
+    </classes>
+ 	 </test> Test -->
+ 	 
+</suite> <!-- Suite -->

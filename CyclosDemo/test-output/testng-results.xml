@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite" duration-ms="43406" started-at="2018-06-20T12:36:46Z" finished-at="2018-06-20T12:37:30Z">
+    <groups>
+    </groups>
+    <test name="My Test Execution1" duration-ms="43406" started-at="2018-06-20T12:36:46Z" finished-at="2018-06-20T12:37:30Z">
+      <class name="TestCases.TC001_AccountinfoPage">
+        <test-method status="PASS" signature="TC001_verifyaccountinfopage()[pri:0, instance:TestCases.TC001_AccountinfoPage@cb5822]" name="TC001_verifyaccountinfopage" duration-ms="13008" started-at="2018-06-20T18:06:46Z" finished-at="2018-06-20T18:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_verifyaccountinfopage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.TC001_AccountinfoPage@cb5822]" name="teardown" is-config="true" duration-ms="585" started-at="2018-06-20T18:06:59Z" finished-at="2018-06-20T18:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TC001_AccountinfoPage -->
+      <class name="TestCases.TC002_PaymentsPage">
+        <test-method status="PASS" signature="testdatafile()[pri:0, instance:TestCases.TC002_PaymentsPage@1604f19]" name="testdatafile" is-config="true" duration-ms="489" started-at="2018-06-20T18:06:46Z" finished-at="2018-06-20T18:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdatafile -->
+        <test-method status="PASS" signature="TC002_VerifyPaymentsPage()[pri:0, instance:TestCases.TC002_PaymentsPage@1604f19]" name="TC002_VerifyPaymentsPage" duration-ms="13711" started-at="2018-06-20T18:07:00Z" finished-at="2018-06-20T18:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_VerifyPaymentsPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.TC002_PaymentsPage@1604f19]" name="teardown" is-config="true" duration-ms="601" started-at="2018-06-20T18:07:14Z" finished-at="2018-06-20T18:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="endrun()[pri:0, instance:TestCases.TC002_PaymentsPage@1604f19]" name="endrun" is-config="true" duration-ms="159" started-at="2018-06-20T18:07:30Z" finished-at="2018-06-20T18:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endrun -->
+      </class> <!-- TestCases.TC002_PaymentsPage -->
+      <class name="TestCases.TC003_PlaceAdPage">
+        <test-method status="PASS" signature="TC003_PlaceAdvertisement()[pri:0, instance:TestCases.TC003_PlaceAdPage@19e13df]" name="TC003_PlaceAdvertisement" duration-ms="14899" started-at="2018-06-20T18:07:14Z" finished-at="2018-06-20T18:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_PlaceAdvertisement -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.TC003_PlaceAdPage@19e13df]" name="teardown" is-config="true" duration-ms="594" started-at="2018-06-20T18:07:29Z" finished-at="2018-06-20T18:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.TC003_PlaceAdPage -->
+    </test> <!-- My Test Execution1 -->
+  </suite> <!-- suite -->
+</testng-results>
